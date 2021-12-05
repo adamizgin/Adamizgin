@@ -22,7 +22,7 @@
 #header-section {
 	width: 100vw;
 	height: 100vh;
-	background: linear-gradient(-180deg, #70d, #73a);
+	background: linear-gradient(-180deg, #7a19f1, #332179);
 	color: #fff;
 	position: relative;
 }
@@ -127,6 +127,46 @@
 	font-size: 20px;
 	line-height: 30px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+																																SECTION 3
+																																SECTION 3
+
+*/
+
+#knowledge {
+	width: calc(100vw - 7.5%);
+	height: 70vh;
+	background: linear-gradient(-180deg, #7a19f1, #332179);
+	padding: 10% 0 0 7.5%;
+}
+
+.knowledge-panels {
+	width: calc(90% / 3);
+	height: 400px;
+	background: #fff;
+	display: inline-block;
+	border-radius: 10px;
+}
+
+
+
+
 
 
 
