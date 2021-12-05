@@ -1,6 +1,8 @@
 * {
 	font-family: Helvetica, Arial, Sans-Serif;
 	margin: 0;
+	-webkit-tap-highlight-color: none;
+	tap-highlight-color: none;
 }
 
 #header-section {
@@ -30,6 +32,7 @@
 	transform: translate(-50%, -50%);
 	text-align: center;
 	width: 30%;
+	-webkit-user-select: none;
 	user-select: none;
 }
 #header-section-content h2 {
@@ -53,14 +56,51 @@
 	border-radius: 30px;
 	box-shadow: 2px 2px 5px #0005;
 	cursor: pointer;
+	position: relative;
 }
 #see-work:hover {
 	background: linear-gradient(180deg, #fff800, #ffc800);
+	box-shadow: 3px 3px 5px #0005;
+}
+#see-work:active {
+	background: linear-gradient(180deg, #ffe000, #ffb000);
 }
 #see-work p {
 	font-size: 18px;
 	font-weight: 400;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+
+
+
+				TRANSPONSIVE
+				TRANSPONSIVE
+				TRANSPONSIVE
+				TRANSPONSIVE
+				TRANSPONSIVE
+				TRANSPONSIVE
+				TRANSPONSIVE
+				TRANSPONSIVE
+				TRANSPONSIVE
+
+
+
+*/
+
 
 @media screen and (max-width: 1345px) {
 	#header-section-content {
@@ -85,5 +125,47 @@
 	}
 	#header-section-content p {
 		font-size: 18px;
+	}
+}
+@media screen and (max-width: 600px) {
+
+	#header-section-content h2 {
+		font-size: 60px;
+	}
+	#header-section-content h3 {
+		font-size: 20px;
+	}
+	#header-section-content p {
+		font-size: 16px;
+	}
+	#header-section-content {
+		width: 75%;
+	}
+	#see-work p {
+		font-size: 14px;
+	}
+	#see-work {
+		padding: 20px;
+	}
+}
+@media screen and (max-width: 405px) {
+
+	#header-section-content h2 {
+		font-size: 45px;
+	}
+	#header-section-content h3 {
+		font-size: 18px;
+	}
+	#header-section-content p {
+		font-size: 14px;
+	}
+	#header-section-content {
+		width: 80%;
+	}
+	#see-work p {
+		font-size: 12px;
+	}
+	#see-work {
+		padding: 15px;
 	}
 }
