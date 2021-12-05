@@ -372,6 +372,9 @@ html, body {
 	#knowledge::before {
 		display: none;
 	}
+	#knowledge {
+		padding: 5% 0 15%;
+	}
 }
 @media screen and (max-width: 900px) {
 	#about-me {
