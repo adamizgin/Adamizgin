@@ -153,15 +153,22 @@
 	width: 100vw;
 	height: auto;
 	background: linear-gradient(-180deg, #7a19f1, #332179);
-	padding: 10% 0;
+	padding: 5% 0;
+	text-align: center;
+}
+
+#knowledge-panel-wrapper {
+	margin-left: auto;
+	margin-right: auto;
+	width: calc(100% - 120px);
 }
 
 .knowledge-panel-wrapper {
-	width: calc(100% / 3 - 60px);
+	width: calc(100% / 4 - 45px);
 	position: relative;
 	height: 300px;
 	display: inline-block;
-	padding: 15px;
+	padding: 20px;
 	margin-left: auto;
 	margin-right: auto;
 }
@@ -171,6 +178,17 @@
 	height: 100%;
 	background: #fff;
 	border-radius: 10px;
+	padding: 10px;
+}
+
+#knowledge h2 {
+	color: #fff;
+	padding-bottom: calc(5% - 15px);
+	font-size: 40px;
+	text-transform: UPPERCASE;
+}
+
+#knowledge h3 {
 }
 
 
