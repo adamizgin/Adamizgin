@@ -61,3 +61,9 @@
 	font-size: 18px;
 	font-weight: 400;
 }
+
+@media screen and (max-width: 1070px) {
+	#header-section-background {
+		background-size: cover;
+	}
+}
