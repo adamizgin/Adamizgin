@@ -53,6 +53,7 @@
 	font-size: 70px;
 	font-weight: 600;
 	text-transform: UPPERCASE;
+	white-space: nowrap;
 }
 #header-section-content h3 {
 	font-size: 30px;
@@ -222,9 +223,6 @@
 	}
 	#see-work p {
 		font-size: 14px;
-	}
-	#see-work {
-		padding: 20px;
 	}
 	#about-content h2 {
 		font-size: 35px;
