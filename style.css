@@ -7,6 +7,10 @@
 	tap-highlight-color: none;
 }
 
+html, body {
+	overflow-x: hidden;
+}
+
 
 
 
@@ -152,9 +156,22 @@
 #knowledge {
 	width: 100vw;
 	height: auto;
-	background: linear-gradient(-180deg, #7a19f1, #332179);
+	background: linear-gradient(-180deg, #7a19f1, #332179 95%);
 	padding: 5% 0;
 	text-align: center;
+	position: relative;
+}
+#knowledge::before {
+	content: '';
+	position: absolute;
+	display: block;
+	background: #332179;
+	width: 100%;
+	height: 100px;
+	left: 0;
+	bottom: -100px;
+	border-radius: 50%;
+	transform: scale(1.5);
 }
 
 #knowledge-panel-wrapper {
@@ -257,6 +274,32 @@
 
 #knowledge p {
 	color: #000c;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+
+																																SECTION 4
+																																SECTION 4
+
+*/
+
+#work {
+	width: 100vw;
+	height: 50vh;
 }
 
 
