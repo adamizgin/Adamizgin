@@ -369,6 +369,9 @@ html, body {
 	#header-section-content {
 		width: 90%;
 	}
+	#knowledge::before {
+		display: none;
+	}
 }
 @media screen and (max-width: 900px) {
 	#about-me {
