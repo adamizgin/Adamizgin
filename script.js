@@ -47,12 +47,12 @@ $(document).ready(function() {
 
 	$('#about-button').click(function() {
 		$([document.documentElement, document.body]).animate({
-	        scrollTop: $("#about-me").offset().top / 1.25
+	        scrollTop: $("#about-me").offset().top / 1.25 - $('#header').height()
 	    }, 500);
 	});
 	$('#know-button').click(function() {
 		$([document.documentElement, document.body]).animate({
-	        scrollTop: $("#knowledge").offset().top
+	        scrollTop: $("#knowledge").offset().top - $('#header').height() - 40
 	    }, 500);
 	});
 });
