@@ -90,6 +90,54 @@ h1 {
 
 
 
+
+/*
+
+																																HAMBURGER
+
+*/
+
+#hamburger {
+	width: 30px;
+	height: 25px;
+	background: transparent;
+	position: absolute;
+	top: 50%;
+	right: 20px;
+	transform: translateY(-50%);
+	display: none;
+}
+
+.ham-line {
+	width: 100%;
+	height: 3px;
+	background: #fff;
+	position: absolute;
+}
+#ham-line-1 {
+	top: 0;
+}
+#ham-line-2 {
+	top: 50%;
+	transform: translateY(-50%);
+}
+#ham-line-3 {
+	bottom: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*
 
 																																SECTION 1
@@ -465,6 +513,16 @@ h1 {
 @media screen and (max-width: 850px) {
 	#header-section-content {
 		width: 90%;
+	}
+	#header-right {
+		display: none;
+	}
+	#header {
+		width: calc(100% - 40px);
+		padding: 20px;
+	}
+	#hamburger {
+		display: block;
 	}
 }
 @media screen and (max-width: 700px) {
