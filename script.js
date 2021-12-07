@@ -58,4 +58,14 @@ $(document).ready(function() {
 	        scrollTop: $("#knowledge").offset().top - $('#header').height() - 40
 	    }, 500);
 	});
+	$('#see-work').click(function() {
+		$([document.documentElement, document.body]).animate({
+	        scrollTop: $("#work").offset().top - $('#header').height() - 40
+	    }, 500);
+	});
+	$('#work-button').click(function() {
+		$([document.documentElement, document.body]).animate({
+	        scrollTop: $("#work").offset().top - $('#header').height() - 40
+	    }, 500);
+	});
 });
