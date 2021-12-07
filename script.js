@@ -1,4 +1,7 @@
 $(document).ready(function() {
+	generateProducts('images/izgin_collection1.jpg');
+	generateProducts('images/izgin_collection2.jpg');
+
 	$(window).scroll(function() {
 		sT = $(this).scrollTop();
 		kH = $("#knowledge").offset().top;
